@@ -1,0 +1,41 @@
+"department_id","description","department_readmissions"
+1,Allergologia,9
+6,Cardiochirurgia,632
+7,Cardiologia,5047
+8,Chirurgia Generale,1612
+9,Chirurgia Maxillo-Facciale,6
+10,Chirurgia Pediatrica,6
+11,Chirurgia Plastica,15
+12,Chirurgia Toracica,263
+13,Chirurgia Vascolare - Angiologia,787
+14,Ematologia,218
+15,Endocrinologia,65
+17,Geriatria,73
+18,Malattie Infettive E Tropicali,133
+20,Medicina Generale,12797
+21,Unità Spinale,26
+22,Nefrologia,1380
+23,Neurochirurgia,161
+25,Neurologia,950
+27,Oculistica,28
+28,Odontostomatologia - Chirurgia Maxillo Facciale,8
+29,Ortopedia E Traumatologia,964
+30,Ostetricia E Ginecologia,160
+31,Otorinolaringoiatria,66
+32,Pediatria,219
+33,Psichiatria,965
+34,Urologia,828
+35,Nefrologia (Abilitato Al Trapianto Rene),54
+36,Terapia Intensiva,754
+37,Unità Coronarica,350
+41,Medicina Fisica E Riabilitazione,2769
+42,Gastroenterologia - Chirurgia Ed Endoscopia,225
+43,Lungodegenti,109
+44,Diagnostica Per Immagini - Medicina Nucleare,6
+46,Oncologia,840
+48,Pneumologia,441
+50,Radioterapia,8
+51,Reumatologia,24
+66,Neuroriabilitazione,23
+68,Terapia Semi Intensiva,1000
+69,Terapia Del Dolore,91
