@@ -138,13 +138,35 @@ Key entry points in the repository include:
 
 ## Outputs
 
-The project generates outputs in the following locations:
+The project generates outputs in the following location [notebooks/modeling/output](notebooks/modeling/outputs) (created at run time)
 
-- [data/processed/modeling](data/processed/modeling): modeling datasets and metric summaries
-- [data/processed/healthcare_events_part](data/processed/healthcare_events_part): descriptive summaries
-- [data/splits](data/splits): patient-level train/test splits mapped to episodes
-- [plots](plots): visual outputs for descriptive and modeling analyses
+## Run the code
 
-## Notes
+Please create a virtual environment from *requirements.txt* using any virtual environment manager. For example, using conda:
 
-This repository is notebook-driven, with the core reusable framework implemented in [notebooks/modeling/utils](notebooks/modeling/utils). 
+- **CONDA - Create env**
+  
+```bash
+conda create -n <replace_with_env_name> python=3.11
+```
+
+- **CONDA - Activate env** :
+
+```bash
+  conda activate <replace_with_env_name>
+```
+
+- **CONDA - Upgrade pip and install requirements**:
+  
+```bash
+ python -m pip install --upgrade pip
+ pip install -r .\requirements.tx
+```
+
+- Then, move inside **notebooks/modeling** folder and run the `run_pipeline.py` script:
+
+```bash
+  python run_pipeline.py
+```
+
+
