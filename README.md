@@ -163,6 +163,9 @@ conda create -n <replace_with_env_name> python=3.11
  pip install -r .\requirements.txt
 ```
 
+>  
+> ⚠️ If you experience any issue with *requirements.txt*, try with *requirementsV2.txt*
+
 - Then, move inside **notebooks/modeling** folder and run the `run_pipeline.py` script:
 
 ```bash
