@@ -160,7 +160,7 @@ conda create -n <replace_with_env_name> python=3.11
   
 ```bash
  python -m pip install --upgrade pip
- pip install -r .\requirements.tx
+ pip install -r .\requirements.txt
 ```
 
 - Then, move inside **notebooks/modeling** folder and run the `run_pipeline.py` script:
