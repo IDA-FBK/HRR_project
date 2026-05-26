@@ -142,29 +142,17 @@ The project generates outputs in the following location [notebooks/modeling/outp
 
 ## Run the code
 
-Please create a virtual environment from *requirements.txt* using any virtual environment manager. For example, using conda:
+- First, ensure you have Conda installed. If not, follow the instructions [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
+- Then, create the project environment using the provided environment.yml file:
+  ```bash
+  conda env create -f environment.yml
+  ```
 
-- **CONDA - Create env**
-  
-```bash
-conda create -n <replace_with_env_name> python=3.11
-```
+- And activate it:
 
-- **CONDA - Activate env** :
-
-```bash
-  conda activate <replace_with_env_name>
-```
-
-- **CONDA - Upgrade pip and install requirements**:
-  
-```bash
- python -m pip install --upgrade pip
- pip install -r requirements.txt
-```
-
->  
-> ⚠️ If you experience any issue with *requirements.txt*, try with *requirementsV2.txt*
+  ```bash
+  conda activate clenv
+  ```
 
 - Then, move inside **notebooks/modeling** folder and run the `run_pipeline.py` script:
 
